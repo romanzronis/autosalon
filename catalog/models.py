@@ -31,7 +31,7 @@ class Car(models.Model):
         return self.name
 
     def test(self):
-        pass
+        print(self.name)
 
     class Meta:
         db_table = 'car'
