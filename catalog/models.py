@@ -30,5 +30,8 @@ class Car(models.Model):
     def __str__(self):
         return self.name
 
+    def test(self):
+        pass
+
     class Meta:
         db_table = 'car'
